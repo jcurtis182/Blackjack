@@ -1,0 +1,9 @@
+Complied using: gcc srcBlackjack.c -o playBlackJack
+
+Run by typing playBlackJack into the terminal, and exit at anytime with Ctrl+C. 
+
+[!] There is a bug where if you input ` instead of a number for the menues, it will rapidly run through everything endlessly. It might do this for other keys as well, so just use the menu correctly.
+
+Notes:
+The guidelines didn't mention a few rules of actual Blackjack, such as the dealer's hidden card, but I put in as many as I could without overcomplicating the project. I'm not sure if a recursive menu system was expected, but I found out how to do that earlier today, so I snuck that in there too. 
+I tested adding a split function, with creating two separate piles and all that, but it drastically complicated the Dealer's actions, and I didn't have time to mess with everything all over again. It should be possible though, so maybe later.
